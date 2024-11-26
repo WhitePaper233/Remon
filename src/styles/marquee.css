@@ -1,0 +1,32 @@
+/* Marquee.css */
+.marquee {
+  @apply block overflow-hidden w-[209px];
+}
+
+.marquee-inner {
+  @apply flex flex-row;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee-inner-reversed {
+  @apply flex flex-row;
+  animation: marquee-reverse 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

@@ -1,0 +1,21 @@
+@import url(https://fonts.bunny.net/css?family=noto-sans-sc:100,200,300,400,500,600,700,800,900);
+
+.regular-text-2xl {
+    @apply text-2xl font-bold;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.regular-text-xl {
+    @apply text-xl font-medium;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.regular-text-lg {
+    @apply text-lg font-medium;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.regular-text-base {
+    @apply text-base font-normal;
+    font-family: 'Noto Sans SC', sans-serif;
+}

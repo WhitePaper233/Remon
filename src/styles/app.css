@@ -1,0 +1,7 @@
+@import url(https://fonts.bunny.net/css?family=abeezee:400);
+
+.logo-font {
+    @apply z-0 absolute left-1/2 -translate-x-1/2 -translate-y-1/2;
+    font-size: 4rem;
+    font-family: 'ABeeZee', sans-serif;
+}
